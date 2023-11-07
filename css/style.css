@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+}
+
+.header {
+    background: lightgray;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.profile-image {
+    background: #be81f7;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #be81f7;
+    color: white;
+    padding: 8px 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #be81f7;
+}
+
+h2 {
+    margin-top: 0;
+}
+li {
+    flex: 1;
+}
+
+.project-list {
+    flex-direction: column;
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+}
+
+.product-list {
+    border-right: 3px solid black;
+    padding: 20px;
+    padding-right: 40px;
+    background: lightgray;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.contents {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+}
+
+.image-box {
+    text-align: center;
+    margin: 10px;
+}
+
+.image-box img {
+    margin-bottom: 0px;
+}
+
+.image-box p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #be81f7;
+    color: white;
+    text-align: center;
+}
